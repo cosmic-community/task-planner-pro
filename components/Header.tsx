@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import LogoutButton from '@/components/LogoutButton';
 
 export default function Header() {
   return (
@@ -21,6 +22,7 @@ export default function Header() {
             >
               Dashboard
             </Link>
+            <LogoutButton />
           </nav>
         </div>
       </div>
